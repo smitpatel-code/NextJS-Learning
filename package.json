@@ -3,7 +3,8 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev --turbopack",
-    "start": "next start"
+    "start": "next start",
+    "nodemon":"nodemon --watch pages --watch app --exec next dev"
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
